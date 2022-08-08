@@ -13,7 +13,7 @@ body{
     z-index: 10;
 }
 
-.navbar{
+.navbar, footer{
     background-image: linear-gradient(to right, red,blue);
 }
 
@@ -42,3 +42,11 @@ body{
     margin-right: auto;
     transform: translateY(7px);
 } */
+
+.iconHover img{
+    transition: 0.5s;
+}
+
+.iconHover:hover img{
+    transform: translateY(-10px);
+}

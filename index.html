@@ -11,7 +11,7 @@
 </head>
 <body>
   
-    <section id="nav-bar">
+    <section id="nav-bar" id="navbar-example2">
         <nav class="navbar navbar-expand-lg">
             <div class="container-fluid">
               <a class="navbar-brand" href="#"><img src="images/demo-logo.png" alt="log" height="40" class="ps-3"></a>
@@ -21,19 +21,19 @@
               <div class="collapse navbar-collapse" id="navbarNav">
                 <ul class="navbar-nav ms-auto">
                   <li class="nav-item px-2">
-                    <a class="nav-link link-light fw-semibold text-center" aria-current="page" href="#">首頁</a>
+                    <a class="nav-link link-light fw-semibold text-center" aria-current="page" href="#top">首頁</a>
                   </li>
                   <li class="nav-item px-2">
-                    <a class="nav-link link-light fw-semibold text-center" href="#">服務項目</a>
+                    <a class="nav-link link-light fw-semibold text-center" href="#services">服務項目</a>
                   </li>
                   <li class="nav-item px-2">
-                    <a class="nav-link link-light fw-semibold text-center" href="#">關於我們</a>
+                    <a class="nav-link link-light fw-semibold text-center" href="#about">關於我們</a>
                   </li>
                   <li class="nav-item px-2">
-                    <a class="nav-link link-light fw-semibold text-center" href="#">聯絡資訊</a>
+                    <a class="nav-link link-light fw-semibold text-center" href="#testimonials">工作夥伴</a>
                   </li>
                   <li class="nav-item px-2">
-                    <a class="nav-link link-light fw-semibold text-center" href="#">其他</a>
+                    <a class="nav-link link-light fw-semibold text-center" href="#social-media">聯絡方式</a>
                   </li>
                 </ul>
               </div>
@@ -41,6 +41,7 @@
           </nav>
     </section>
 
+    <div data-bs-spy="scroll" data-bs-target="#navbar-example2" data-bs-root-margin="0px 0px -40%" data-bs-smooth-scroll="true" tabindex="0">
     <!-- banner -->
     <section id="banner">
         <div class="container">
@@ -57,6 +58,7 @@
         </div>
         <img src="/images/wave1.png" alt="wave1" class="w-100">
     </section>
+    
     
     <!-- 服務項目 -->
     <section id="services" class="py-4">
@@ -107,7 +109,7 @@
       </div>
     </section>
 
-    <!-- 聯絡資訊 -->
+    <!-- 工作夥伴 -->
     <section id="testimonials" class="py-4">
       <div class="container">
         <h1 class="title text-center">工作夥伴</h1>
@@ -126,6 +128,46 @@
       </div>
     </section>
     
+    <!-- 聯絡方式 -->
+    <section id="social-media">
+      <div class="container text-center my-5">
+        <p class="fs-2 fw-semibold mt-3">FIND US SOCIAL MEDIA</p>
+        <div>
+          <a href="#" class="iconHover"><img src="images/facebook-icon.png" alt="facebook"></a>
+          <a href="#" class="iconHover"><img src="images/instagram-icon.png" alt="instagram"></a>
+          <a href="#" class="iconHover"><img src="images/linkedin-icon.png" alt="linkedin"></a>
+          <a href="#" class="iconHover"><img src="images/snapchat-icon.png" alt="snapchat"></a>
+          <a href="#" class="iconHover"><img src="images/twitter-icon.png" alt="twitter"></a>
+          <a href="#" class="iconHover"><img src="images/snapchat-icon.png" alt="snapchat"></a>
+        </div>
+      </div>
+    </section>
+  
+    <footer>
+      <img src="images/wave2.png" alt="wave2" class="w-100">
+      <div class="container text-white py-3">
+        <div class="row">
+          <div class="col-md-4 my-3">
+            <img src="images/demo-logo.png" alt="logo" class="w-25">
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ad sunt, perferendis itaque asperiores tempore impedit alias eius facilis dicta officia velit doloremque laborum. Dolore possimus, corporis magni nulla reprehenderit ex?</p>
+          </div>
+          <div class="col-md-4 my-3">
+            <h3>CONTACT US</h3>
+            <p><i class="fa-solid fa-location-dot pt-3"></i>  臺灣省台中市西區</p>
+            <p><i class="fa-solid fa-phone pt-2"></i>  +88612345678</p>
+            <p><i class="fa-solid fa-envelope pt-2"></i>  a123456@gmail.com</p>
+          </div>
+          <div class="col-md-4 my-3">
+            <h3>SUBSCRIBE NEWSLETTER</h3>
+            <input type="email" class="form-control mb-3" id="exampleFormControlInput1" placeholder="Your Email">
+            <button type="button" class="btn btn-primary mb-3">SUBSCRIBE</button>
+          </div>
+        </div>
+      </div>
+      <hr>
+      <p class="text-center text-white pb-3 mb-0">2022 practise bootstrap</p>
+    </footer>
+  </div>
     
     <script src="js/bootstrap.min.js"></script>
 </body>
