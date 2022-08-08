@@ -22,7 +22,7 @@ body{
     color: white;
 }
 
-section .title::before{
+.title::before{
     content: '';
     display: block;
     background-color: #7b1798;
@@ -32,7 +32,7 @@ section .title::before{
     margin-right: auto;
     transform: translateY(62px);
 }
-section .title::after{
+/* .title::after{
     content: '';
     display: block;
     background-color: #7b1798;
@@ -41,4 +41,4 @@ section .title::after{
     margin-left: auto;
     margin-right: auto;
     transform: translateY(7px);
-}
+} */
