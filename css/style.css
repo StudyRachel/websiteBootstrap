@@ -22,7 +22,13 @@ body{
     color: white;
 }
 
-.title::before{
+.title{
+    width: 200px;
+    margin: 0 auto;
+    border-bottom: 5px solid #7b1798;
+}
+
+/* .title::before{
     content: '';
     display: block;
     background-color: #7b1798;
@@ -31,8 +37,8 @@ body{
     margin-left: auto;
     margin-right: auto;
     transform: translateY(62px);
-}
-/* .title::after{
+} */
+.title::after{
     content: '';
     display: block;
     background-color: #7b1798;
@@ -41,7 +47,7 @@ body{
     margin-left: auto;
     margin-right: auto;
     transform: translateY(7px);
-} */
+}
 
 .iconHover img{
     transition: 0.5s;
